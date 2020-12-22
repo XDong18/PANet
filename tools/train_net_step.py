@@ -43,7 +43,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description='Train a X-RCNN network')
 
     parser.add_argument(
-        '--dataset', dest='dataset', required=True,
+        '--dataset', dest='dataset', required=False,
         help='Dataset to use')
     parser.add_argument(
         '--cfg', dest='cfg_file', required=True,
