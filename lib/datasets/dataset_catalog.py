@@ -38,14 +38,14 @@ RAW_DIR = 'raw_dir'
 
 # Available datasets
 DATASETS = {
-    'bdd100k_ins_seg_train':{
+    'bdd100k_ins_seg_train': {
         IM_DIR: '/shared/xudongliu/bdd100k/10k/train',
         ANN_FN: '/shared/xudongliu/bdd100k/labels/ins_seg/ins_seg_train.json'
-    }
-    'bdd100k_ins_seg_val':{
+    },
+    'bdd100k_ins_seg_val': {
         IM_DIR: '/shared/xudongliu/bdd100k/10k/val',
         ANN_FN: '/shared/xudongliu/bdd100k/labels/ins_seg/ins_seg_val.json'
-    }
+    },
     'cityscapes_fine_instanceonly_seg_train': {
         IM_DIR:
             _DATA_DIR + '/cityscapes/images',
